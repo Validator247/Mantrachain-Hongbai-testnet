@@ -130,6 +130,12 @@ State Sync
 
 Generate a new public key with mnemonic phrase
 
+Create a key file.
+
+    mantrachaind config keyring-backend file
+
+Add New Wallet Key                
+
     mantrachaind keys add wallet
 
 Import keys ( if using an existing wallet )
