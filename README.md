@@ -19,7 +19,7 @@ install go / Var /
     [ ! -d ~/go/bin ] && mkdir -p ~/go/bin
 
     echo "export WALLET="wallet"" >> $HOME/.bash_profile
-    echo "export MONIKER="test"" >> $HOME/.bash_profile
+    echo "export MONIKER="Your_Nodename"" >> $HOME/.bash_profile
     echo "export MANTRA_CHAIN_ID="mantra-hongbai-1"" >> $HOME/.bash_profile
     echo "export MANTRA_PORT="22"" >> $HOME/.bash_profile
     source $HOME/.bash_profile
