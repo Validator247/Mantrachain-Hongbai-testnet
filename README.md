@@ -26,9 +26,13 @@ Initialise node
 
     mantrachaind init <your-moniker> --chain-id mantra-hongbai-1
 
-Download genesis.json
+Download genesis.json & Addrbook.json 
 
-    curl -Ls https://github.com/MANTRA-Finance/public/raw/main/mantrachain-hongbai/genesis.json > $HOME/.mantrachain/config/genesis.json
+    wget https://raw.githubusercontent.com/Validator247/Mantrachain-Hongbai-testnet/main/genesis.json
+
+Download Addrbook.json
+
+    wget https://raw.githubusercontent.com/Validator247/Mantrachain-Hongbai-testnet/main/addrbook.json    
 
 Update the config.toml & Seed & Peer
 
