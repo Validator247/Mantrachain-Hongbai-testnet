@@ -1,5 +1,7 @@
 # Mantrachain-Hongbai-testnet
 
+Explorer : https://explorer.validator247.com/hongbai-testnet/staking
+
 Update system & install prerequisites:
 
     sudo apt update && sudo apt upgrade -y
